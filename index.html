@@ -1,0 +1,24 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id = count-h class ="score">0</h2>
+                <button class = "count-1 btn" onclick="incrementHomeScore1()">+1</button>
+                <button class = "count-2 btn" onclick="incrementHomeScore2()">+2</button>
+                <button class = "count-3 btn" onclick="incrementHomeScore3()">+3</button>
+            </div>
+            <div>
+                <h3>AWAY</h3>
+                <h2 id = count-g class = "score">0</h2>
+                <button class = "count-1 btn" onclick="incrementGuestScore1()">+1</button>
+                <button class = "count-2 btn" onclick="incrementGuestScore2()">+2</button>
+                <button class = "count-3 btn" onclick="incrementGuestScore3()">+3</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

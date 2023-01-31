@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Cursed Timer ULiL;                  
+    background-color: #0C4A6E;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    margin: 40px;
+    width: 117px;
+    height: 120px;
+    left: 355px;
+    top: 125px;
+    line-height: 127px;
+    text-align: center;
+    
+}
+
+.btn{
+    background-color: #0C4A6E;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
